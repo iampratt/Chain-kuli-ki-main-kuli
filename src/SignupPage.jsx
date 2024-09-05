@@ -1,7 +1,7 @@
 import React from "react";
 import "./SignupPage.css";
 
-export default function SignupPage() {
+export default function SignupPage({ onLoginClick }) {
   return (
     <>
       <div class="signup_form">
@@ -12,7 +12,9 @@ export default function SignupPage() {
 
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" />
-            <button class="login_button">LOGIN</button>
+            <button class="login_button" onClick={onLoginClick}>
+              LOGIN
+            </button>
           </form>
         </div>
       </div>

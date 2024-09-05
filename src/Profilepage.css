@@ -1,0 +1,78 @@
+.navigation_bar {
+  background-color: transparent;
+  display: flex;
+}
+.navigation_inside {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 4% 6% 4% 6%; */
+  /* font-family: "Outfit", sans-serif; */
+  font-weight: 500;
+  /* padding: 5% 15% 5% 15%; */
+}
+#logo {
+  font-size: 2vw;
+}
+.navigation_inside img {
+  width: 3%;
+  height: auto;
+}
+.details {
+  /* background-color: paleturquoise; */
+  padding: 5% 10% 5% 10%;
+}
+.namedetails {
+  display: flex;
+  gap: 10%;
+}
+.namedetails img {
+  width: 10%;
+  height: auto;
+}
+.namedetails p {
+  font-size: 2vw;
+  margin-top: 3%;
+}
+.profilelink {
+  margin-top: 3%;
+  margin-left: 3%;
+  display: flex;
+  gap: 15%;
+}
+.profilelink button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.bottom_section {
+  margin-top: 5%;
+}
+.section_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sec_head {
+  font-size: 2vw;
+  font-weight: 500;
+  /* margin-left: 5%; */
+}
+#sec_edit {
+  font-size: 1.5vw;
+}
+.main_section {
+  /* background-color: rgb(227, 221, 221); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  border-radius: 10px;
+}
+.card {
+  width: 20vw;
+  height: 30vh;
+  background-color: white;
+  border-radius: 30px;
+  border: 1px solid black;
+}

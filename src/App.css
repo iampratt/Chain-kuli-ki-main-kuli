@@ -2,18 +2,15 @@
   margin: 0;
   border: 0;
 }
-.container {
-  background-color: white;
-  height: 100vh;
-}
+
 .outer_container {
   background-color: #d6c5ac;
   padding: 6% 4% 6% 4%;
+  height: 120vh;
 }
 .inner_container {
   background-color: white;
-  height: 90vh;
+  height: 100vh;
   border-radius: 10px;
-
-  /* margin: 20%; */
+  padding: 5%;
 }

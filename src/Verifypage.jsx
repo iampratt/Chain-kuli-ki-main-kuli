@@ -4,19 +4,23 @@ import "./Verifypage.css";
 import SignupPage from "./SignupPage";
 import { useState } from "react";
 
-function Verifypage() {
+function Verifypage({ onLoginClick, onVerifyClick }) {
   const [isSignupVisible, setIsSignupVisible] = useState(false);
   const handleLoginClick = () => {
     setIsSignupVisible(!isSignupVisible);
   };
   return (
     <>
-      <NavBar onLoginClick={handleLoginClick} />
-      {isSignupVisible && <SignupPage />}
-
-      <div class="verify_container">
-        <button class="verify_button">VERIFY</button>
-      </div>
+      <NavBar onSignupClick={handleLoginClick} />
+      {isSignupVisible ? (
+        <SignupPage onLoginClick={onLoginClick} />
+      ) : (
+        <div className="verify_container">
+          <button className="verify_button" onClick={onVerifyClick}>
+            VERIFY
+          </button>
+        </div>
+      )}
     </>
   );
 }
