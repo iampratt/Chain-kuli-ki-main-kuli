@@ -1,0 +1,17 @@
+.verify_container {
+  display: flex;
+  /* flex: 1; */
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.verify_button {
+  /* align-items: center; */
+  background-color: black;
+  color: white;
+  padding: 2%;
+  border-radius: 10px;
+  font-weight: 600;
+  letter-spacing: 1rem;
+}
